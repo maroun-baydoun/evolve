@@ -1,6 +1,6 @@
-define("Bug", ["Util"], function(Util){
+import * as Util from "./util";
    
-    var Bug = function(x, y, width, height, color, gender){
+    function Bug(x, y, width, height, color, gender){
         
         
        this.x = x;
@@ -67,8 +67,6 @@ define("Bug", ["Util"], function(Util){
     Bug.GENDER_MALE = 0;
     Bug.GENDER_FEMALE = 1;
     Bug.MATING_AGE = 5;
-    
-    return Bug;
-});
 
+export default Bug;
 

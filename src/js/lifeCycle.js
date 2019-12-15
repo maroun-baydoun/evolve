@@ -1,4 +1,5 @@
-define("LifeCycle", ["Bug", "Util"], function (Bug, Util) {
+import * as Util from "./util";
+import Bug from "./bug";
 
     var LifeCycle = {
         groundColor:{r:10, g:255, b:50},
@@ -133,7 +134,6 @@ define("LifeCycle", ["Bug", "Util"], function (Bug, Util) {
     LifeCycle.BUG_MAX_AGE = 40;
     LifeCycle.COMPETITITVE_EDGE = 20;
 
-    return LifeCycle;
-});
+    export default  LifeCycle;
 
 

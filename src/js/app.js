@@ -1,6 +1,6 @@
-define(["Bug", "LifeCycle", "Util"], function(Bug, LifeCycle, Util){
-   
-    
+import * as Util from "./util";
+import LifeCycle from "./lifeCycle";
+
     var canvas = window.document.getElementById('canvas');
     var context = canvas.getContext('2d');
    
@@ -78,6 +78,5 @@ define(["Bug", "LifeCycle", "Util"], function(Bug, LifeCycle, Util){
    draw();
  
     
-});
 
 
