@@ -3,14 +3,10 @@ body, html{
     margin: 0;
 }
 .container{
-    width: 500px; 
-    margin: 25px auto;
+    width: 800px; 
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
-}
-canvas {
-    height: 500px;
-    width: 500px;
 }
 .sidebar{
     padding: 20px;

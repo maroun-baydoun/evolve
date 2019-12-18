@@ -26,5 +26,8 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "dependencies": {
+    "geneticalgorithm": "1.0.1"
   }
 }
