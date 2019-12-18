@@ -1,4 +1,19 @@
-body, html{padding:0; margin: 0;}
-.container{width: 692px; margin: 25px auto;}
-canvas {float: left;}
-.sidebar{float: left;padding: 20px;background: #eee; width: 150px;height: 458px; border: 1px solid #ccc;}
+body, html{
+    padding:0; 
+    margin: 0;
+}
+.container{
+    width: 500px; 
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+canvas {
+    height: 500px;
+    width: 500px;
+}
+.sidebar{
+    padding: 20px;
+    background: #eee; 
+    border: 1px solid #ccc;
+}
